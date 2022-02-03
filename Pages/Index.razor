@@ -1,0 +1,31 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<div class="CenterDiv">
+    <h1>Welcome to <i>Is it Monday</i>!</h1>
+
+    <img class="marginned" src="@imgSrc" asp-append-version="true" width="512px" />
+
+    <h4>@headerFour</h4>
+    <button class="marginned" @onclick="DiscoverMonday">Is it Monday today?</button>
+</div>
+
+@code{
+    private string headerFour = "If you want to know if today is Monday or not, simply click the button below to ask our friend Goofield!!";
+    private string isMondayString = "Today is Monday :(";
+    private string notMondayString = "Today is NOT Monday! Woohoo!";
+
+    private string imgSrc = "Images\\goofield.png";  // \ is the escape char, so we use two
+    private void DiscoverMonday(){
+        DateTime dt = DateTime.Now;
+        if(dt.DayOfWeek == DayOfWeek.Monday){
+            headerFour = isMondayString;
+            imgSrc = "Images\\sadgoof.png";
+        } 
+        else {
+            headerFour = notMondayString;
+            imgSrc = "Images\\happygoof.png";
+        }
+    }
+}

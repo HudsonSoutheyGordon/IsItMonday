@@ -1,0 +1,62 @@
+@page "/faq"
+
+<PageTitle>FAQ</PageTitle>
+
+<div class="CenterDiv">
+    <h1>FAQ</h1>
+    <h4>Since my website exploded in popularity I have been getting a lot of questions. Here are some of the most common ones.</h4>
+</div>
+<div class="faqDiv">
+    @foreach (var faq in faqList)
+    {
+        <Collapsable Title="@faq.Item1" Answer="@faq.Item2" Collapsed="true"></Collapsable>
+    }
+
+
+</div>
+
+@code {
+
+    private Tuple<string, string>[] faqList = {
+        Tuple.Create(
+            "Why did you make this website?",
+            "A lot of people are like Goofield; they hate Mondays. This is a site for fellow Monday-haters like Goofied!" +
+            "I also think it could have valuable FinTech applications. I am trying to work out a deal with a FAANG for it."
+        ),
+        Tuple.Create(
+            "Who is Goofield?",
+            "Goofield is a character I invented! He is an orange tabby cat who HATES Mondays." +
+            "I created him out of my own imagination so he's unlike any other fictional cat before!" +
+            "Even if he was similar though, I'm sure the resemblence to any other orange cat who hates Mondays would fall under parody-law."
+        ),
+        Tuple.Create(
+            "Does Goofield like lasagna?",
+            "No he's a cat. He eats cat food." +
+            "Why do people keep asking me this?"
+        ),
+        Tuple.Create(
+            "Why does Goofield hate Mondays?",
+            "Goofield hates Mondays because of what they stand for."
+        ),
+        Tuple.Create(
+            "Do you hate Mondays?",
+            "No Mondays are fine. Why would I waste energy hating an abstract concept like a day of the week?"
+        ),
+        Tuple.Create(
+            "What did you make this website in?",
+            "This is in ASP .NET with Blazor front end."
+        ),
+        Tuple.Create(
+            "Is this open-source?",
+            "Yes! I want others to be able to learn how to make similar websites. You can find a link to my GitHub at the top of the page."
+        ),  // Hello! Look at you looking at the source code! I hope you have a great day (regardless of if it is Monday or not)
+        Tuple.Create(
+            "Are you planning on making a similar site for other days of the week?",
+            "No. Frankly I don't see why I would - Goofield only cares about Monday really."
+        ),
+        Tuple.Create(
+            "Is this website a joke/ironic?",
+            "OK that's rude. No need for personal attacks and attempts to hurt my feelings."
+        )
+    };
+}

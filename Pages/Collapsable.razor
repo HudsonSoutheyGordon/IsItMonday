@@ -1,0 +1,41 @@
+<div class="container outlinedContainer marginned rounded">
+    <div class="row">
+        <span class="faqParent">
+            @Title
+            @if (Collapsed)
+            {
+                <span @onclick="@Toggle" class="oi oi-plus col-sm"/>
+            }
+            else
+            { 
+                <span @onclick="@Toggle" class="oi oi-minus col-sm"/>
+            }
+
+        </span>
+        <span class="faqChild">
+            @if(!Collapsed)
+            {
+                <p>@Answer</p>
+            }
+        </span>
+    </div>
+</div>
+
+
+
+
+@code {
+// Citation: https://stackoverflow.com/questions/58538154/how-to-collapse-expand-razor-components-using-blazor-syntax
+
+    [Parameter]
+    public string Answer { get; set; }
+    [Parameter]
+    public bool Collapsed { get; set; }
+    [Parameter]
+    public string Title { get; set; }
+
+    void Toggle()
+    {
+        Collapsed = !Collapsed;
+    }
+}

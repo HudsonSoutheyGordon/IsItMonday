@@ -1,0 +1,21 @@
+﻿@inherits LayoutComponentBase
+
+<div class="page">
+    <main>
+        <div class="top-row px-4" id="topBar">
+            <NavLink class="nav-link" href="/">
+                <span class="oi" aria-hidden="true"></span> Home
+            </NavLink>
+            <NavLink class="nav-link" href="faq">
+                <span class="oi" aria-hidden="true"></span> FAQs
+            </NavLink>
+            <a href="https://docs.microsoft.com/aspnet/" target="_blank">
+                <img border="0" alt="Source Code" src="Images/GitHub32.png" width="32" height="32">
+            </a>
+        </div>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>

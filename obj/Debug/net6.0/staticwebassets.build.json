@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sD0lZUOJzbGD9jrzp9YgD5wFtiJ9cbLCqJQ2qvUvmPI=",
+  "Hash": "zKvvcMGLJXAAawH0/xWanJPR2oHfGZGnN30mSlj1oYY=",
   "Source": "Mondays",
   "BasePath": "/",
   "Mode": "Root",
@@ -7104,6 +7104,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\goofield.png"
+    },
+    {
+      "Identity": "E:\\Dev\\Mondays\\wwwroot\\Images\\goofLabel.png",
+      "SourceId": "Mondays",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Dev\\Mondays\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/goofLabel.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\goofLabel.png"
     },
     {
       "Identity": "E:\\Dev\\Mondays\\wwwroot\\Images\\happygoof.png",

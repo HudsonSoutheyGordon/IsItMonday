@@ -1,0 +1,5 @@
+E:\Dev\Mondays\release\Build\web.config
+E:\Dev\Mondays\release\Build\wwwroot\sample-data\weather.json
+E:\Dev\Mondays\release\Build\wwwroot\_framework\blazor.boot.json
+E:\Dev\Mondays\release\static.json
+E:\Dev\Mondays\release\web.config

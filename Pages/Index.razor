@@ -12,14 +12,22 @@
 </div>
 
 @code{
+
+    [Inject]
+    public IMondayServices _mondayServices { get; set; }
+
     private string headerFour = "If you want to know if today is Monday or not, simply click the button below to ask our friend Goofield!!";
     private string isMondayString = "Today is Monday :(";
     private string notMondayString = "Today is NOT Monday! Woohoo!";
 
     private string imgSrc = "Images\\goofield.png";  // \ is the escape char, so we use two
-    private void DiscoverMonday(){
-        DateTime dt = DateTime.Now;
-        if(dt.DayOfWeek == DayOfWeek.Monday){
+    private async void DiscoverMonday(){
+        bool? isMonday = await _mondayServices.IsItMonday();
+        while(isMonday == null)
+        {
+            headerFour = "Goofield is thinking...";
+        }
+        if(isMonday == true){
             headerFour = isMondayString;
             imgSrc = "Images\\sadgoof.png";
         } 
@@ -27,5 +35,7 @@
             headerFour = notMondayString;
             imgSrc = "Images\\happygoof.png";
         }
+
+        StateHasChanged();
     }
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Dev\\Mondays\\Mondays.csproj": {}
+    "C:\\Development\\IsItMonday\\IsItMonday\\Mondays.csproj": {}
   },
   "projects": {
-    "E:\\Dev\\Mondays\\Mondays.csproj": {
+    "C:\\Development\\IsItMonday\\IsItMonday\\Mondays.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Dev\\Mondays\\Mondays.csproj",
+        "projectUniqueName": "C:\\Development\\IsItMonday\\IsItMonday\\Mondays.csproj",
         "projectName": "Mondays",
-        "projectPath": "E:\\Dev\\Mondays\\Mondays.csproj",
-        "packagesPath": "C:\\Users\\Bubba PC\\.nuget\\packages\\",
-        "outputPath": "E:\\Dev\\Mondays\\obj\\",
+        "projectPath": "C:\\Development\\IsItMonday\\IsItMonday\\Mondays.csproj",
+        "packagesPath": "C:\\Users\\hudso\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\IsItMonday\\IsItMonday\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bubba PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hudso\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -48,6 +48,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -63,7 +71,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[6.0.1, 6.0.1]"
+              "version": "[6.0.2, 6.0.2]"
             }
           ],
           "frameworkReferences": {
@@ -71,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

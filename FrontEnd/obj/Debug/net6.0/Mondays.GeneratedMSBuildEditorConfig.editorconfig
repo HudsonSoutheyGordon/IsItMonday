@@ -11,33 +11,33 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = Mondays
 build_property.RootNamespace = Mondays
-build_property.ProjectDir = C:\Development\IsItMonday\IsItMonday\
+build_property.ProjectDir = C:\Development\IsItMonday\IsItMonday\FrontEnd\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Development\IsItMonday\IsItMonday
+build_property.MSBuildProjectDirectory = C:\Development\IsItMonday\IsItMonday\FrontEnd
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Development/IsItMonday/IsItMonday/App.razor]
+[C:/Development/IsItMonday/IsItMonday/FrontEnd/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Development/IsItMonday/IsItMonday/Pages/Collapsable.razor]
+[C:/Development/IsItMonday/IsItMonday/FrontEnd/Pages/Collapsable.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29sbGFwc2FibGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Development/IsItMonday/IsItMonday/Pages/FAQ.razor]
+[C:/Development/IsItMonday/IsItMonday/FrontEnd/Pages/FAQ.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRkFRLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Development/IsItMonday/IsItMonday/Pages/Index.razor]
+[C:/Development/IsItMonday/IsItMonday/FrontEnd/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Development/IsItMonday/IsItMonday/_Imports.razor]
+[C:/Development/IsItMonday/IsItMonday/FrontEnd/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Development/IsItMonday/IsItMonday/Shared/MainLayout.razor]
+[C:/Development/IsItMonday/IsItMonday/FrontEnd/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-7l38vearkq

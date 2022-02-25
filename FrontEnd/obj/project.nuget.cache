@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v/mgawV5LCwEcAUD1/Be+xlncDBQ3MNW2QoaxiwVIsPbNkYgAuhTD+TRLEBku7P53w8Z9cJMpVGRSOEiMixPMA==",
+  "dgSpecHash": "xKOzLgak2wWBceB7Tpz3XtquS2mP0B7IcZPd/+KsDWzx/Cc5DGLLojCT4XO3uDi3tBfNfkRJ922ZDMke15rSiw==",
   "success": true,
-  "projectFilePath": "C:\\Development\\IsItMonday\\IsItMonday\\Mondays.csproj",
+  "projectFilePath": "C:\\Development\\IsItMonday\\IsItMonday\\FrontEnd\\Mondays.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hudso\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.1\\microsoft.aspnetcore.authorization.6.0.1.nupkg.sha512",
     "C:\\Users\\hudso\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.1\\microsoft.aspnetcore.components.6.0.1.nupkg.sha512",

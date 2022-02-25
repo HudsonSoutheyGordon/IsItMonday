@@ -1657,11 +1657,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Development\\IsItMonday\\IsItMonday\\Mondays.csproj",
+      "projectUniqueName": "C:\\Development\\IsItMonday\\IsItMonday\\FrontEnd\\Mondays.csproj",
       "projectName": "Mondays",
-      "projectPath": "C:\\Development\\IsItMonday\\IsItMonday\\Mondays.csproj",
+      "projectPath": "C:\\Development\\IsItMonday\\IsItMonday\\FrontEnd\\Mondays.csproj",
       "packagesPath": "C:\\Users\\hudso\\.nuget\\packages\\",
-      "outputPath": "C:\\Development\\IsItMonday\\IsItMonday\\obj\\",
+      "outputPath": "C:\\Development\\IsItMonday\\IsItMonday\\FrontEnd\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hudso\\AppData\\Roaming\\NuGet\\NuGet.Config",

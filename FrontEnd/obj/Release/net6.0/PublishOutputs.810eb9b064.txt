@@ -1,0 +1,7 @@
+C:\Development\IsItMonday\IsItMonday\FrontEnd\obj\Release\net6.0\browser-wasm\PubTmp\Out\release\web.config
+C:\Development\IsItMonday\IsItMonday\FrontEnd\obj\Release\net6.0\browser-wasm\PubTmp\Out\release\Build\wwwroot\sample-data\weather.json
+C:\Development\IsItMonday\IsItMonday\FrontEnd\obj\Release\net6.0\browser-wasm\PubTmp\Out\release\Build\wwwroot\_framework\blazor.boot.json
+C:\Development\IsItMonday\IsItMonday\FrontEnd\obj\Release\net6.0\browser-wasm\PubTmp\Out\release\static.json
+C:\Development\IsItMonday\IsItMonday\FrontEnd\obj\Release\net6.0\browser-wasm\PubTmp\Out\release\wwwroot\sample-data\weather.json
+C:\Development\IsItMonday\IsItMonday\FrontEnd\obj\Release\net6.0\browser-wasm\PubTmp\Out\release\wwwroot\_framework\blazor.boot.json
+C:\Development\IsItMonday\IsItMonday\FrontEnd\obj\Release\net6.0\browser-wasm\PubTmp\Out\web.config

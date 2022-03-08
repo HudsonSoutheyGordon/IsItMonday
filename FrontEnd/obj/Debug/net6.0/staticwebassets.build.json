@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "B/ZRRRj9VoabzMsw7/jdPb8Wc3DJ8zWGsFtbfH1kbzU=",
+  "Hash": "rSnbVJvciKi6mZR9ZFvMlRgKhZuaXfgBP80sY6LUNMU=",
   "Source": "Mondays",
   "BasePath": "/",
   "Mode": "Root",
@@ -712,6 +712,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\hudso\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.2\\runtimes\\browser-wasm\\lib\\net6.0\\netstandard.dll"
+    },
+    {
+      "Identity": "C:\\Development\\IsItMonday\\IsItMonday\\FrontEnd\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Octokit.dll",
+      "SourceId": "Mondays",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Development\\IsItMonday\\IsItMonday\\FrontEnd\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Octokit.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\hudso\\.nuget\\packages\\octokit\\0.50.0\\lib\\netstandard2.0\\Octokit.dll"
     },
     {
       "Identity": "C:\\Development\\IsItMonday\\IsItMonday\\FrontEnd\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.AppContext.dll",
@@ -5372,6 +5389,23 @@
       "OriginalItemSpec": "C:\\Development\\IsItMonday\\IsItMonday\\FrontEnd\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.dll"
     },
     {
+      "Identity": "C:\\Development\\IsItMonday\\IsItMonday\\FrontEnd\\obj\\Debug\\net6.0\\build-gz\\mS7t98oA.gz",
+      "SourceId": "Mondays",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Development\\IsItMonday\\IsItMonday\\FrontEnd\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Octokit.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Development\\IsItMonday\\IsItMonday\\FrontEnd\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Octokit.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Development\\IsItMonday\\IsItMonday\\FrontEnd\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Octokit.dll"
+    },
+    {
       "Identity": "C:\\Development\\IsItMonday\\IsItMonday\\FrontEnd\\obj\\Debug\\net6.0\\build-gz\\mUC617f9.gz",
       "SourceId": "Mondays",
       "SourceType": "Computed",
@@ -7191,6 +7225,40 @@
       "OriginalItemSpec": "wwwroot\\Images\\sadgoof.png"
     },
     {
+      "Identity": "C:\\Development\\IsItMonday\\IsItMonday\\FrontEnd\\wwwroot\\Images\\SlackBot\\SlackBotHappy.png",
+      "SourceId": "Mondays",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Development\\IsItMonday\\IsItMonday\\FrontEnd\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/SlackBot/SlackBotHappy.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\SlackBot\\SlackBotHappy.png"
+    },
+    {
+      "Identity": "C:\\Development\\IsItMonday\\IsItMonday\\FrontEnd\\wwwroot\\Images\\SlackBot\\SlackBotSad.png",
+      "SourceId": "Mondays",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Development\\IsItMonday\\IsItMonday\\FrontEnd\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/SlackBot/SlackBotSad.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\SlackBot\\SlackBotSad.png"
+    },
+    {
       "Identity": "C:\\Development\\IsItMonday\\IsItMonday\\FrontEnd\\wwwroot\\index.html",
       "SourceId": "Mondays",
       "SourceType": "Discovered",
@@ -7206,6 +7274,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Development\\IsItMonday\\IsItMonday\\FrontEnd\\wwwroot\\js\\index.bundle.js",
+      "SourceId": "Mondays",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Development\\IsItMonday\\IsItMonday\\FrontEnd\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "js/index.bundle.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\index.bundle.js"
     },
     {
       "Identity": "C:\\Development\\IsItMonday\\IsItMonday\\FrontEnd\\wwwroot\\sample-data\\weather.json",

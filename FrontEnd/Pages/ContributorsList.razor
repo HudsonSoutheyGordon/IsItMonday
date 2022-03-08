@@ -1,0 +1,101 @@
+﻿@page "/contributors"
+@using Octokit
+
+<div class="CenterDiv">
+    <h3>Contributors</h3>
+    <p>Since IsItMon.day is an open-source application, our contributors are the cat's meow.
+        <br />
+    </p>
+</div>
+<div class="CenterDiv w-75 mx-auto">
+    @if(contributors.Count() < 1)
+    {
+        <h2>Goofield doesn't wanna! Please try again later.</h2>
+        <p>(AKA we have exceeded our GitHub API request limit right now.)</p>
+    } else
+    {
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Contributor</th>
+                    <th scope="col"># of Contributions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(RepositoryContributor contributor in contributors)
+                {
+                    // I do not want myself on the leaderboard.
+                    @if(contributor.Login == "HudsonSoutheyGordon")
+                    {
+                        continue;
+                    }
+                    <tr>
+                        <td>@contributor.Login</td>
+                        <td>@contributor.Contributions</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+</div>
+<div class="CenterDiv">
+    <h4><b>Want to join the highscore list?</b></h4>
+    <p>
+        This table is automatically updated when pull requests are merged to our main branch!
+        <br />
+        <a href="https://github.com/HudsonSoutheyGordon/IsItMonday/issues">
+        See our open issue list and show the world you hate Mondays too!
+        </a>
+    </p>
+</div>
+
+
+@code {
+    GitHubClient github = new GitHubClient(new ProductHeaderValue("IsItMonday"));
+    List<RepositoryContributor> contributors = new List<RepositoryContributor>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        Contributors();
+    }
+
+    // Get the list of contributors and sort it in non-ascending order by contribution count.
+    private async void Contributors()
+    {
+        try
+        {
+            var res = await github.Repository.GetAllContributors("HudsonSoutheyGordon", "IsItMonday");
+
+            contributors.Clear();
+
+            foreach(RepositoryContributor contributor in res)
+            {
+                contributors.Add(contributor);
+            }
+            var orderedContributors = from c in contributors
+                                      orderby c.Contributions descending
+                                      select c;
+
+            RepositoryContributor toRemove = null;
+            foreach(RepositoryContributor contributor in orderedContributors)
+            {
+
+                Console.WriteLine("Sorted: Contributions: " + contributor.Contributions);
+                Console.WriteLine("Sorted: Contributor Login: " + contributor.Login);   // Screen Name
+            }
+
+
+        } catch
+        {
+            Console.WriteLine("Goofield doesn't wanna. Try again later.");
+        } finally
+        {
+            StateHasChanged();
+        }
+
+
+
+    }
+
+}

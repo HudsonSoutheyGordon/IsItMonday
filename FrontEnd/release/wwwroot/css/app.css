@@ -6,6 +6,10 @@
     text-align:center;
 }
 
+tr {
+    background-color: #7e9a9a;
+}
+
 .faqParent {
     background-color: #7e9a9a;
     font-size: 24px;

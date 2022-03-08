@@ -3,31 +3,25 @@
 <PageTitle>IsItMonday</PageTitle>
 
 <div class="CenterDiv">
-    <h1>Welcome to <i>Is it Monday</i>!</h1>
+    <h1>Welcome to isitmon.day</h1>
 
     <img class="marginned" src="@imgSrc" asp-append-version="true" width="512px" />
     <img id="goofLabel" src="Images\goofLabel.png" />
     <h4>@headerFour</h4>
-    <button class="marginned" @onclick="DiscoverMonday">Is it Monday today?</button>
+    <button class="btn btnIsItMonday" @onclick="DiscoverMonday">Is it Monday today?</button>
+
 </div>
 
 @code{
-
-    [Inject]
-    public IMondayServices _mondayServices { get; set; }
 
     private string headerFour = "If you want to know if today is Monday or not, simply click the button below to ask our friend Goofield!!";
     private string isMondayString = "Today is Monday :(";
     private string notMondayString = "Today is NOT Monday! Woohoo!";
 
     private string imgSrc = "Images\\goofield.png";  // \ is the escape char, so we use two
-    private async void DiscoverMonday(){
-        bool? isMonday = await _mondayServices.IsItMonday();
-        while(isMonday == null)
-        {
-            headerFour = "Goofield is thinking...";
-        }
-        if(isMonday == true){
+    private void DiscoverMonday(){
+        DateTime dateTime = DateTime.Now;
+        if(dateTime.DayOfWeek == DayOfWeek.Monday){
             headerFour = isMondayString;
             imgSrc = "Images\\sadgoof.png";
         } 
@@ -38,4 +32,5 @@
 
         StateHasChanged();
     }
+
 }

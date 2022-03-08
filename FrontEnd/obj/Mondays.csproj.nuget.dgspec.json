@@ -53,6 +53,10 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
+            "Octokit": {
+              "target": "Package",
+              "version": "[0.50.0, )"
+            },
             "System.Net.Http.Json": {
               "target": "Package",
               "version": "[6.0.0, )"

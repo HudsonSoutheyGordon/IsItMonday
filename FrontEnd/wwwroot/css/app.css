@@ -1,9 +1,26 @@
 ﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
+.btnIsItMonday {
+    background-color: cornflowerblue;
+    color: white;
+    outline: auto;
+    outline-color: black;
+}
+
 .CenterDiv {
     margin-top:auto;
     margin-bottom:auto;
     text-align:center;
+}
+
+.table > thead > tr {
+    background-color: #567994;
+}
+.table-striped > tbody > tr:nth-child(even) > td {
+    background-color: #729bba;
+}
+.table-striped > tbody > tr:nth-child(odd) > td {
+    background-color: #8ec3eb;
 }
 
 .faqParent {

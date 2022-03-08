@@ -2239,6 +2239,7 @@ C:\Development\IsItMonday\IsItMonday\obj\Debug\net6.0\scopedcss\projectbundle\Mo
 C:\Development\IsItMonday\IsItMonday\obj\Debug\net6.0\Mondays.csproj.CopyComplete
 C:\Development\IsItMonday\IsItMonday\obj\Debug\net6.0\refint\Mondays.dll
 C:\Development\IsItMonday\IsItMonday\obj\Debug\net6.0\ref\Mondays.dll
+C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\blazor.boot.json
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\blazor.webassembly.js
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.2.02z51a7eyu.js
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\dotnet.timezones.blat
@@ -2275,8 +2276,11 @@ C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framewor
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\Microsoft.VisualBasic.dll
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Win32.Primitives.dll
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Win32.Registry.dll
+C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\Mondays.dll
+C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\Mondays.pdb
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\mscorlib.dll
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\netstandard.dll
+C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\Octokit.dll
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\System.AppContext.dll
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\System.Buffers.dll
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\System.Collections.Concurrent.dll
@@ -2475,6 +2479,7 @@ C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framewor
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Extensions.dll.gz
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.dll.gz
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\System.Xml.dll.gz
+C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\Mondays.pdb.gz
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\icudt_no_CJK.dat.gz
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.dll.gz
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.Cng.dll.gz
@@ -2550,6 +2555,7 @@ C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framewor
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebSockets.dll.gz
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebHeaderCollection.dll.gz
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.dll.gz
+C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\Octokit.dll.gz
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll.gz
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Extensions.dll.gz
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\System.Web.HttpUtility.dll.gz
@@ -2575,6 +2581,7 @@ C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framewor
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\dotnet.wasm.gz
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\System.Globalization.dll.gz
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll.gz
+C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\Mondays.dll.gz
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\icudt_EFIGS.dat.gz
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\System.Xml.ReaderWriter.dll.gz
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\System.Text.Encoding.Extensions.dll.gz
@@ -2635,11 +2642,6 @@ C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framewor
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XPath.dll.gz
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Options.dll.gz
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.TraceSource.dll.gz
-C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\blazor.boot.json
-C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\Mondays.dll
-C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\Mondays.pdb
-C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\Mondays.pdb.gz
-C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\wwwroot\_framework\Mondays.dll.gz
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\release\web.config
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\release\Build\wwwroot\sample-data\weather.json
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\release\Build\wwwroot\_framework\blazor.boot.json
@@ -2672,6 +2674,7 @@ C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\Microsoft.Extensi
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\Microsoft.JSInterop.dll
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\Microsoft.JSInterop.WebAssembly.dll
+C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\Octokit.dll
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\System.IO.Pipelines.dll
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\Microsoft.CSharp.dll
 C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\Microsoft.VisualBasic.Core.dll
@@ -2875,6 +2878,7 @@ C:\Development\IsItMonday\IsItMonday\FrontEnd\obj\Debug\net6.0\build-gz\ZsWKZQqU
 C:\Development\IsItMonday\IsItMonday\FrontEnd\obj\Debug\net6.0\build-gz\5FFQmEBq.gz
 C:\Development\IsItMonday\IsItMonday\FrontEnd\obj\Debug\net6.0\build-gz\ZpnDK134.gz
 C:\Development\IsItMonday\IsItMonday\FrontEnd\obj\Debug\net6.0\build-gz\0n2DO7Bt.gz
+C:\Development\IsItMonday\IsItMonday\FrontEnd\obj\Debug\net6.0\build-gz\mS7t98oA.gz
 C:\Development\IsItMonday\IsItMonday\FrontEnd\obj\Debug\net6.0\build-gz\es1hYrsM.gz
 C:\Development\IsItMonday\IsItMonday\FrontEnd\obj\Debug\net6.0\build-gz\kehRhwiM.gz
 C:\Development\IsItMonday\IsItMonday\FrontEnd\obj\Debug\net6.0\build-gz\Ga8w9d+s.gz
@@ -3063,3 +3067,5 @@ C:\Development\IsItMonday\IsItMonday\FrontEnd\obj\Debug\net6.0\Mondays.dll
 C:\Development\IsItMonday\IsItMonday\FrontEnd\obj\Debug\net6.0\refint\Mondays.dll
 C:\Development\IsItMonday\IsItMonday\FrontEnd\obj\Debug\net6.0\Mondays.pdb
 C:\Development\IsItMonday\IsItMonday\FrontEnd\obj\Debug\net6.0\ref\Mondays.dll
+C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\NpmJS\package-lock.json
+C:\Development\IsItMonday\IsItMonday\FrontEnd\bin\Debug\net6.0\NpmJS\package.json

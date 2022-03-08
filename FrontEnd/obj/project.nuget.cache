@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xKOzLgak2wWBceB7Tpz3XtquS2mP0B7IcZPd/+KsDWzx/Cc5DGLLojCT4XO3uDi3tBfNfkRJ922ZDMke15rSiw==",
+  "dgSpecHash": "NZ5VDQ2PHzchvLqG4QvyFTYhKngvIaNeFqHfRtmj5KG9529CVM6f+FiqOj24ho1Gawc4wiih1mJfj2iQkCM5hQ==",
   "success": true,
   "projectFilePath": "C:\\Development\\IsItMonday\\IsItMonday\\FrontEnd\\Mondays.csproj",
   "expectedPackageFiles": [
@@ -29,6 +29,7 @@
     "C:\\Users\\hudso\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\hudso\\.nuget\\packages\\microsoft.jsinterop\\6.0.1\\microsoft.jsinterop.6.0.1.nupkg.sha512",
     "C:\\Users\\hudso\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.1\\microsoft.jsinterop.webassembly.6.0.1.nupkg.sha512",
+    "C:\\Users\\hudso\\.nuget\\packages\\octokit\\0.50.0\\octokit.0.50.0.nupkg.sha512",
     "C:\\Users\\hudso\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\hudso\\.nuget\\packages\\system.io.pipelines\\6.0.1\\system.io.pipelines.6.0.1.nupkg.sha512",
     "C:\\Users\\hudso\\.nuget\\packages\\system.net.http.json\\6.0.0\\system.net.http.json.6.0.0.nupkg.sha512",

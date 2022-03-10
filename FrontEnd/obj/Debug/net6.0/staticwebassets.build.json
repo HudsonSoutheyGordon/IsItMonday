@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rSnbVJvciKi6mZR9ZFvMlRgKhZuaXfgBP80sY6LUNMU=",
+  "Hash": "ChRtjedQeDQMWqeTPxkjI9KGnN1fwYJ3LlI7GPdc7yo=",
   "Source": "Mondays",
   "BasePath": "/",
   "Mode": "Root",
@@ -6900,6 +6900,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Development\\IsItMonday\\IsItMonday\\FrontEnd\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Mondays.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Development\\IsItMonday\\IsItMonday\\FrontEnd\\wwwroot\\confett.js",
+      "SourceId": "Mondays",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Development\\IsItMonday\\IsItMonday\\FrontEnd\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "confett.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\confett.js"
     },
     {
       "Identity": "C:\\Development\\IsItMonday\\IsItMonday\\FrontEnd\\wwwroot\\css\\app.css",

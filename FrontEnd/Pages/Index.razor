@@ -4,14 +4,22 @@
 @if(DateTime.Now.DayOfWeek == DayOfWeek.Monday)
 {
     <HeadContent>
-        <meta name="description" content="Our pal Goofield will tell us if it is Monday today!" />
-        <meta name="image" content="Images\\sadgoof.png" />
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="isitmon.day">
+        <meta name="twitter:title" content="Top 10 Things Ever">
+        <meta name="twitter:description" content=@headerFour>
+        <meta name="twitter:image" content=imgSrc>
+        <meta name="twitter:domain" content="isitmon.day">
     </HeadContent>
 } else
 {
     <HeadContent>
-        <meta name="description" content="Our pal Goofield will tell us if it is Monday today!" />
-        <meta name="image" content="Images\\happygoof.png" />
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="isitmon.day">
+        <meta name="twitter:title" content="Top 10 Things Ever">
+        <meta name="twitter:description" content=@headerFour>
+        <meta name="twitter:image" content=@imgSrc>
+        <meta name="twitter:domain" content="isitmon.day">
     </HeadContent>
 }
 
